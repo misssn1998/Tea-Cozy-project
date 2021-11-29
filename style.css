@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: block;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    min-height: 69px;
+    align-items: center;
+    opacity: 1;
+
+}
+
+#logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+header a {
+    margin-right: 15px;
+    color: seashell;
+
+    
+}
+
+main {
+    margin: 0 50px;
+}
+
+.mission-img {
+    background-image: url("img-mission-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1000px;;
+    top: 70px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.text-over {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+
+}
+
+.trend-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px; 
+
+}
+
+.location {
+    background-image: url("img-locations-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    
+
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto auto auto;
+    max-width: 1000px;
+
+}
+
+.row {
+    background-color: black;
+    max-width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    flex-basis: 30%;
+    opacity: 1;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer {
+    max-height: 200px;
+}
+
+.copyright {
+    display: block;
+    float: left;
+    padding-left: 20px;
+}
